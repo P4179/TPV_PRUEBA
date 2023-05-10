@@ -1,0 +1,68 @@
+{
+  "consts": [
+    {
+      "id": "FRAME_RATE",
+      "number": 30
+    },
+    {
+      "id": "ASTEROID_SIZE",
+      "number": 15
+    },
+    {
+      "id": "ASTEROID_VELOCITY_FACTOR",
+      "number": 0.05
+    },
+    {
+      "id": "ASTEROID_START_ZONE",
+      "number": 10
+    },
+    {
+      "id": "ASTEROID_END_ZONE",
+      "number": 100
+    },
+    {
+      "id": "ASTEROID_CHILD_ACCELERATE",
+      "number": 1.2
+    },
+    {
+      "id": "BULLET_VELOCITY_FACTOR",
+      "number": 0.05
+    },
+    {
+      "id": "FIGHTER_ROTATION",
+      "number": 5
+    },
+    {
+      "id": "FIGHTER_SIZE",
+      "number": 50
+    },
+    {
+      "id": "FIGHTER_DEACCELERATION",
+      "number": 0.95
+    },
+    {
+      "id": "FIGHTER_LIMIT",
+      "number": 0.05
+    },
+    {
+      "id": "FIGHTER_LIFES",
+      "number": 3
+    },
+    {
+      "id": "FIGHTER_THRUST",
+      "number": 0.2
+    },
+    {
+      "id": "FIGHTER_SPEED_LIMIT",
+      "number": 0.15
+    },
+    {
+      "id": "FIGHTER_BULLETS_FREQUENCY",
+      "number": 250
+    },
+    {
+      "id": "FIGHTER_HEALTH_SIZE",
+      "number": 50
+    }
+  ]
+}

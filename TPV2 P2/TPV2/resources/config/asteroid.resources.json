@@ -1,0 +1,210 @@
+{
+
+  "fonts" : [
+    { "id" : "ARIAL16", "file" : "resources/fonts/ARIAL.ttf", "size": 16 },
+    { "id" : "ARIAL24", "file" : "resources/fonts/ARIAL.ttf", "size": 24 },
+    {
+      "id": "ARIAL48",
+      "file": "resources/fonts/ARIAL.ttf",
+      "size": 48
+    }
+  ],
+  
+  "images" : [
+    {
+      "id": "fighter",
+      "file": "resources/images/fighter.png"
+    },
+    {
+      "id": "fighter2",
+      "file": "resources/images/fighter2.png"
+    },
+    {
+      "id": "heart",
+      "file": "resources/images/heart.png"
+    },
+    {
+      "id": "fire",
+      "file": "resources/images/fire.png"
+    },
+    {
+      "id": "asteroid_silver",
+      "file": "resources/images/asteroid.png",
+      "rows": 5,
+      "cols": 6
+    },
+    {
+      "id": "asteroid_gold",
+      "file": "resources/images/asteroid_gold.png",
+      "rows": 5,
+      "cols": 6
+    }
+  ],
+
+  "messages": [
+    {
+      "id": "PressSpace",
+      "text": "Press SPACE to continue",
+      "font": "ARIAL48",
+      "color": "0x000000ff"
+    },
+    {
+      "id": "Win",
+      "text": "You WIN!",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0x188B1Eff"
+    },
+    {
+      "id": "Gameover",
+      "text": "GAMEOVER!",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xEF3535ff"
+    },
+    {
+      "id": "Waiting",
+      "text": "Waiting for the other player...",
+      "font": "ARIAL48",
+      "color": "0x000000ff"
+    },
+    {
+      "id": "Play_Out",
+      "text": "PLAY",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xffffffff"
+    },
+    {
+      "id": "Play_Over",
+      "text": "PLAY",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xE3E3E3ff"
+    },
+    {
+      "id": "Play_Clicked",
+      "text": "PLAY",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xBFBFBFff"
+    },
+    {
+      "id": "Quit_Out",
+      "text": "QUIT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xffffffff"
+    },
+    {
+      "id": "Quit_Over",
+      "text": "QUIT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xE3E3E3ff"
+    },
+    {
+      "id": "Quit_Clicked",
+      "text": "QUIT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xBFBFBFff"
+    },
+    {
+      "id": "Server_Out",
+      "text": "SERVER",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xffffffff"
+    },
+    {
+      "id": "Server_Over",
+      "text": "SERVER",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xE3E3E3ff"
+    },
+    {
+      "id": "Server_Clicked",
+      "text": "SERVER",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xBFBFBFff"
+    },
+    {
+      "id": "Client_Out",
+      "text": "CLIENT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xffffffff"
+    },
+    {
+      "id": "Client_Over",
+      "text": "CLIENT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xE3E3E3ff"
+    },
+    {
+      "id": "Client_Clicked",
+      "text": "CLIENT",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xBFBFBFff"
+    },
+    {
+      "id": "Online_Out",
+      "text": "ONLINE",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xffffffff"
+    },
+    {
+      "id": "Online_Over",
+      "text": "ONLINE",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xE3E3E3ff"
+    },
+    {
+      "id": "Online_Clicked",
+      "text": "ONLINE",
+      "font": "ARIAL48",
+      "color": "0x000000ff",
+      "bg": "0xBFBFBFff"
+    },
+    {
+      "id": "Introduce",
+      "text": "Introduce your name:",
+      "font": "ARIAL48",
+      "color": "0x000000ff"
+    }
+  ],
+
+  "sounds": [
+    {
+      "id": "hit",
+      "file": "resources/sound/wall_hit.wav"
+    },
+    {
+      "id": "explosion",
+      "file": "resources/sound/explosion.wav"
+    },
+    {
+      "id": "thrust",
+      "file": "resources/sound/thrust.wav"
+    },
+    {
+      "id": "fire",
+      "file": "resources/sound/fire.wav"
+    }
+  ],
+
+  "musics" : [
+    {
+      "id": "beat",
+      "file": "resources/sound/beat.wav"
+    }    
+  ]
+
+}
